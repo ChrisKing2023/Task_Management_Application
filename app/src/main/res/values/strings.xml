@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Task Management Application</string>
+    <string name="enter_note">Enter Note</string>
+    <string name="enter_the_title">Enter the Title</string>
+    <string name="enter_the_description">Enter the description</string>
+    <string name="notes">Notes</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
 </resources>
