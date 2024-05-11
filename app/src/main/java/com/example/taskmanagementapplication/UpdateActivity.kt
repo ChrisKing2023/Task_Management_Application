@@ -38,7 +38,7 @@ class UpdateActivity : AppCompatActivity() {
             val updatedNote = Note(noteId, newTitle, newContent)
             db.updateNote(updatedNote)
             finish()
-            Toast.makeText(this, "Changes Saved", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Task Changes Saved", Toast.LENGTH_SHORT).show()
         }
 
     }

@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:layout_marginTop="20dp"
     tools:context=".AddNotesActivity">
 
 
@@ -14,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="40dp"
         android:text="@string/enter_note"
         android:textColor="@color/blueBG"
         android:textSize="24sp" />
