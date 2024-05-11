@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:layout_marginTop="20dp"
+    android:background="@color/white"
     tools:context=".AddNotesActivity">
 
 
@@ -36,6 +37,7 @@
         android:hint="@string/enter_the_title"
         android:padding="12dp"
         android:textSize="20sp"
+        android:textColor="@color/black"
         android:layout_below="@+id/addNoteHeading"
         android:background="@drawable/blue_border"
         android:layout_marginTop="16dp"
@@ -50,6 +52,7 @@
         android:gravity="top"
         android:padding="12dp"
         android:textSize="18sp"
+        android:textColor="@color/black"
         android:fontFamily="@font/poppins"
         android:background="@drawable/blue_border"
         android:layout_below="@+id/titleEditText"

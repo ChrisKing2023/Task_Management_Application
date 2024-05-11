@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     app:cardCornerRadius="8dp"
     app:cardElevation="4dp"
+    android:background="@color/white"
     app:cardUseCompatPadding="true">
 
     <LinearLayout
@@ -54,6 +55,7 @@
             android:layout_height="wrap_content"
             android:text="@string/content"
             android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
             android:maxLines="3"
             android:layout_marginTop="4dp"/>
 
