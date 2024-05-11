@@ -35,7 +35,7 @@ class NotesAdapter(private var notes: List<Note>, context: Context) :
             //When user clicks on edit option, it will direct him to edit activity
 
             val intent = Intent(holder.itemView.context, UpdateActivity::class.java).apply {
-                putExtra("node_id", note.id)
+                putExtra("note_id", note.id)
             }
             holder.itemView.context.startActivity(intent)
         }
